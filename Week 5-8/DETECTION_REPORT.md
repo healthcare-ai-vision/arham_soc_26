@@ -20,10 +20,6 @@
 
 **Best configuration:** `faster_rcnn` — F1 = 0.6238, mAP@0.5 = 0.6007, mAP@0.5:0.95 = 0.5176
 
-## Comparison Chart
-
-![Detection model comparison](detection_comparison_chart.png)
-
 ## Notes
 
 - `*` in the chart legend indicates mask-guided peritumoral-stroma patch selection was used for that run (see `05_Training_Detection.ipynb`, Step 3).
