@@ -19,12 +19,6 @@
 
 **Best configuration:** `unet_pretrained` (encoder: resnet34) — mIoU = 0.5655, mean F1 = 0.7214
 
-## Comparison Charts
-
-![Segmentation model comparison](segmentation_comparison_chart.png)
-
-![Per-class IoU comparison](segmentation_per_class_iou_chart.png)
-
 ## Notes
 
 - Stain normalization (Macenko) and the 7-class -> 3-class remap (`{0:0, 1:1, 2:2, 3:0, 4:0, 5:0, 6:2, 7:0}`) follow the official TIGER baseline directly — these were not open decisions for this track.
